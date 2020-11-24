@@ -33,7 +33,7 @@ const quizLength = quiz.length;
 let count = 0;
 
 
-let $button = document.getElementsByTagName("button")
+let $button = document.getElementsByTagName("button");
 
 // 問題文と回答の定義
 const setupQuiz = () => {
@@ -45,7 +45,7 @@ const setupQuiz = () => {
         $button[buttonIndex].textContent = quiz[quizIndex].options[buttonIndex];
         buttonIndex++;
     }
-}
+};
 
 setupQuiz();
 
